@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif :400,700 &display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'PT+Serif', sans-serif;
+    display: flex;
+    flex:wrap;
+    margin:0;
+}
+
+nav {
+    background-color: #eee;
+    border-right: 2px solid #777;
+    width: 300px;
+    height: 100vh;
+}
+
+nav header {
+    padding: 15px;
+}
+nav a {
+    color: black;
+    display: block;
+    padding: 15px;
+    border-top: 1px solid #777;
+    text-decoration: none;
+}
+
+main {
+    flex: 1;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+section {
+    padding: 20px;
+    line-height: 1.5;
+}
+
+header {
+    font-size: 24px;
+    font-weight: 7
+}
+
